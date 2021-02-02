@@ -1,0 +1,117 @@
+--------------------------------------------------------------------------------------------------------------
+
+* ¿Que es la probabilidad compuesta o condicionada?
+
+Es aquella donde intervienen mas de un evento aleatorio
+
+* Ejemplo 
+
+Se lanza tres veces una moneda al aire. Queremos saber la probabilidad de que ocurra el suceso:
+
+A) Sacar al menos dos cruces en los tres tiros
+
+										⬋		 			 (1 lanza)					⬊
+									⬋																	⬊	
+								Cara	⬊													⬋		Cruz
+							⬋					⬊											⬋					⬊
+						Cara				Cruz	 (2 lanza)		Cara				Cruz
+					⬋		⬊				⬋		⬊								⬋		⬊				⬋		⬊
+				Cara	Cruz	Cara	Cruz (3 lanza)	Cara	Cruz	Cara	Cruz
+				CCC		CC+		C+C		C++							+CC		+C+		++C		+++	
+
+
+- Espacio muestral: Cara o Cruz
+- Caso favorable : Sacar al menos dos cruces en los tres tiros
+- Sucesos posibles: 2
+- Sucesos favorables: 1
+
+
+1) Probabilidad para cada rama
+
+P(A) = 1 / 2 
+
+
+2) Probabilidad para una rama completa
+
+P(A) = (1/2) (1/2) (1/2) = 1/8
+
+3) Los unicos resultados los cuales tienen mayor posibilidad de salir cruz son: C++ +C+ ++C	+++
+
+P(C++) = (1/2) (1/2) (1/2) = 1/8
+P(+C+) = (1/2) (1/2) (1/2) = 1/8
+P(++C) = (1/2) (1/2) (1/2) = 1/8
+P(+++) = (1/2) (1/2) (1/2) = 1/8
+
+P(A) = 1/8 + 1/8 +1/8 + 1/8 = 4/8 => simplificado(1/2)
+
+Respuesta: La probabilidad de sacar minimo 2 cruzes en los 3 tiros es de: 50%
+
+--------------------------------------------------------------------------------------------------------------
+
+* Sucesos compatibles, incompatibles y complementarios
+
+- Experimento: Lanzar un dado
+- Espacio muestral: 1,2,3,4,5,6
+
+A = { 6,1 }
+B = { 1,3,2 }
+C = { 4 }
+D = { 4,6,5 }
+
+<Al lanzar el dado mi resultado fue: 1>
+
+1) Suceso compatibles: (A-B)
+
+Mi resultado se encuentra en ambos subconjuntos(A-B) quiere decir que suceden al mismo tiempo y cumplimos tanto
+para "A" como para "B"
+
+2) Suceso incompatibles: (A-C)
+
+Mi resultado se encuentra en un solo subconjuntos(A) quiere decir que ambos sucesos no pueden ser al mismo tiempo
+esto quiere decir que no comparten aslgun suceso elemental 
+
+3) Suceso complementarios: (B-D)
+
+Son aquellos que al unirlos, nos daran todo el espacio muestral(en este caso los 6 numeros del dado)
+entonces cualquiera de los resultados que obtengamos cumplira con cualquier elemento del espacio muestral
+
+--------------------------------------------------------------------------------------------------------------
+
+* Union 
+
+Suceso formado por todos los resultados
+
+* Interseccion
+
+Es cuando en dos o mas subconjunto se repiten sus valores, su simbolo es: ∩
+
+A = { 2,4,6 } B = { 4,5,6 } = La union de "A" y "B" seria:
+
+AUB = { 2,,4,5,6 } => No ponemos numeros repetidos porque si cumple para "A" lo harà para "B"
+
+* Para calcular la probabilidad de una union
+
+<Ambas reglas se pueden utilizar y son validas>
+
+1) P(AUB) = P(A) + P(B)
+2) P(AUB) = P(A) + P(B) - P(A∩B)
+
+* Ejemplo
+
+Un 15% de los pacientes atendidos en un hospital son hipertensos, un 10% son obesos y un 3% son hipertensos y obesos.
+
+¿Que probabilidad hay que elegido un paciente al azar sea obeso o hipertenso?
+
+A = { hipertenso }, P(A) = 15% => el mismo ejercicio nos dice que son el 15%
+B = { obeso }, P(A) = 10% => el mismo ejercicio nos dice que son el 10%
+A∩B = { hipertenso y obeso }, P(A) = 3% => Porque estan en ambos conjuntos
+
+AUB = { hipertenso u obeso }
+
+P(AUB) = P(A) + P(B) - P(A∩B)
+
+P(AUB) = 0.15 + 0.10 + 0.03 = 0.22
+
+Respuesta: La probabilidad de elegir un paciente al azar y sea obeso o hipertenso es del 22%
+
+--------------------------------------------------------------------------------------------------------------

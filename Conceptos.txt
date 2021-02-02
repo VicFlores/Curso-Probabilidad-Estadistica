@@ -1,0 +1,47 @@
+--------------------------------------------------------------------------------------------------------------
+
+* Probabilidad
+
+Que tan probable es que ocurra un evento
+
+1) Es un número entre 0 y 1, nunca es negativa.
+2) La probabilidad puede esccribirse en forma de fraccion, decimal o porcentaje
+3) La probabilidad del evento A suele escribirse como P(A)
+
+* Ejemplo
+
+Si P(A) > P(B), el evento "A" tiene mayor probabilidad de ocurrir que el evento "B"
+Si P(A) = P(B), el evento "A" y "B" tiene la misma probabilidad de ocurrir
+
+--------------------------------------------------------------------------------------------------------------
+
+* Experimento
+
+Proceso para la obtención de datos estadísticos y pueden ser:
+
+1) Numéricos (cuantitativos): Los resultados que obtendremos seran numericos 
+2) No numéricos (cualitativos): Los resultados que obtendremos seran por ejemplo colores, nombres, etc...
+
+* Espacio muestral
+
+Es todo el conjunto de valores que obtendremos en determinado experimento(se representa por la letra omega)
+
+* Sucesos elementales
+
+Es una opción del espacio muestral. Se divide en tres opciones que son:
+
+1) Posible
+2) Seguro
+3) Imposible
+
+* Ejemplo: Tomar una ficha al azar con los ojos cerrados
+
+1) Experimento no numerico
+2) Espacio muestral: fichas de color rojo, amarillo, verde, y azul
+3) Sucesos: 
+
+Posible: (sacar una ficha color amarillo)
+Seguro: (Obtener una ficha color rojo, amarillo, verde o azul)
+Imposible: (Obtener una ficha color negro)
+
+--------------------------------------------------------------------------------------------------------------

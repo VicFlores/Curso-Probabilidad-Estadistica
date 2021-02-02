@@ -1,0 +1,140 @@
+--------------------------------------------------------------------------------------------------------------
+
+* Experimentos Equiprobables
+
+Cada suceso del espacio muestral tiene la misma probabilidad de ocurrencia (la misma posibilidad de aparecer como resultado)
+
+--------------------------------------------------------------------------------------------------------------
+
+* Regla de Laplace
+
+Casos favorables sobre el total de casos posibles.
+
+
+* Ejemplo
+
+¿Cual es la probabilidad de que al lanzar una moneda, el resultado sea cruz?
+
+1) Experimento no numerico
+2) Espacio muestral: cara o cruz
+3) Casos favorables: 1, porque quiero que sea cruz
+4) Casos posibles: 2, puede salir cara o cruz
+5) Resultado: 
+
+P(A) = caso favorables / casos posibles
+
+P(A) = 1 / 2 = 0.5 (puede ser representado como porcentaje o fraccion)
+
+--------------------------------------------------------------------------------------------------------------
+
+* Ejercicios experimentos numericos
+
+(Ejercicio 1): Calcular la probabilidad de que al tirar un dado salga: 
+
+A) Un numero para
+
+- Caso favorable : Salga un numero par
+- Sucesos posibles: 1, 2, 3, 4, 5, 6
+- Sucesos favorables: 2, 4, 6 = 3 sucesos favorables
+
+P(A) = 3 / 6 = 50%
+
+--------------------------------------------------------------------------------------------------------------
+
+(Ejercicio 2): Calcular la probabilidad de que al tirar un dado salga: 
+
+B) Un numero multiplo de 3
+
+- Caso favorable : Un numero multiplo de 3
+- Sucesos posibles: 1, 2, 3, 4, 5, 6
+- Sucesos favorables: 3, 6 = 2 sucesos favorables
+
+P(A) = 2 / 6 = 33.33%
+
+--------------------------------------------------------------------------------------------------------------
+
+(Ejercicio 3): Calcular la probabilidad de que al tirar un dado salga: 
+
+C) Un numero mayor a 2
+
+- Caso favorable : Un numero mayor a 2
+- Sucesos posibles: 1, 2, 3, 4, 5, 6
+- Sucesos favorables: 3, 4, 5, 6 = 4 sucesos favorables
+
+P(A) = 4 / 6 = 66.66%
+
+--------------------------------------------------------------------------------------------------------------
+
+(Ejercicio 4): En una clase hay 6 alumnas con gafas y 16 sin gafas, 3 alumnos con gafas y 10 sin gafas. Un dia asisten 34 alumnos, calcular la probabilidad de que el alumno que falte sea:
+
+A) Sea mujer
+
+- Caso favorable : Sea mujer
+- Sucesos posibles: Mujeres (6 + 16 = 22), Hombres (3 + 10 = 13) = Total de alumnos (22 + 13 = 35)
+- Sucesos favorables: 22 mujeres
+
+P(A) = 22 / 35 = 63%%
+
+--------------------------------------------------------------------------------------------------------------
+
+(Ejercicio 5): En una clase hay 6 alumnas con gafas y 16 sin gafas, 3 alumnos con gafas y 10 sin gafas. Un dia asisten 34 alumnos, calcular la probabilidad de que el alumno que falte sea:
+
+B) Sea hombre sin gafas
+
+- Caso favorable : Sea hombre sin gafas
+- Sucesos posibles: Mujeres (6 + 16 = 22), Hombres (3 + 10 = 13) = Total de alumnos (22 + 13 = 35)
+- Sucesos favorables: 10 alumnos sin gafas
+
+P(A) = 10 / 35 = 27%
+
+--------------------------------------------------------------------------------------------------------------
+
+(Ejercicio 6): En una clase hay 6 alumnas con gafas y 16 sin gafas, 3 alumnos con gafas y 10 sin gafas. Un dia asisten 34 alumnos, calcular la probabilidad de que el alumno que falte sea:
+
+B) Sea hombre o mujer
+
+- Caso favorable : Sea hombre o mujer
+- Sucesos posibles: Mujeres (6 + 16 = 22), Hombres (3 + 10 = 13) = Total de alumnos (22 + 13 = 35)
+- Sucesos favorables: 35
+
+P(A) = 35 / 35 = 1%
+
+--------------------------------------------------------------------------------------------------------------
+
+* Ejercicios experimentos no numericos
+
+(Ejercicio 1): Una urna tiene 7 bolas blancas, 3 negras y 5 rojas. Si se extrae una bola al azar, calcular la probabilidad de que: 
+
+A) Sea blanca
+
+- Caso favorable : Sea blanca
+- Sucesos posibles: 7 blancas, 3 negras y 5 rojas = 15
+- Sucesos favorables:  7 blancas
+
+P(A) = 7 / 15 = 46.46%
+
+--------------------------------------------------------------------------------------------------------------
+
+(Ejercicio 2): Una urna tiene 7 bolas blancas, 3 negras y 5 rojas. Si se extrae una bola al azar, calcular la probabilidad de que: 
+
+B) Sea negra	
+
+- Caso favorable : Sea negra
+- Sucesos posibles: 7 blancas, 3 negras y 5 rojas = 15
+- Sucesos favorables:  3 negras
+
+P(A) = 3 / 15 = 20%
+
+--------------------------------------------------------------------------------------------------------------
+
+(Ejercicio 3): Una urna tiene 7 bolas blancas, 3 negras y 5 rojas. Si se extrae una bola al azar, calcular la probabilidad de que: 
+
+C) No sea roja
+
+- Caso favorable : No sea roja
+- Sucesos posibles: 7 blancas, 3 negras y 5 rojas = 15
+- Sucesos favorables: 7 blancas, 3 negras = 10
+
+P(A) = 10 / 15 = 66.66%
+
+--------------------------------------------------------------------------------------------------------------
